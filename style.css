@@ -4,6 +4,7 @@ html{
 
 body{
     white-space: none;
+    background-color: grey;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -15,13 +16,20 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-size:cover;
+    background-size:cover
 }
 
 .intro-container p{
     font-size: x-large;
 }
 
+.column{
+
+    width:250px;
+    height:250px;
+    object-fit: fill;
+
+}
 .intro-container #header-divider{
     width: auto;
     border-bottom: 1cap;
