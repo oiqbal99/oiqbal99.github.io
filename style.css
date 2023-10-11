@@ -8,6 +8,10 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+p{
+    font-size: xx-large ;
+}
+
 .intro-container{
     width: 100%;
     height: 75%;
@@ -16,20 +20,13 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-size:cover
+   
 }
 
 .intro-container p{
     font-size: x-large;
 }
 
-.column{
-
-    width:250px;
-    height:250px;
-    object-fit: fill;
-
-}
 .intro-container #header-divider{
     width: auto;
     border-bottom: 1cap;
@@ -41,38 +38,39 @@ body{
     font-size: 5rem;
 }
 
-.extra-info-container{
-    width: 100%;
-    height: 25%;
-    display: flex;
-    background-color: blueviolet;
-}
-
-#education-container{
-    width:50%;
-    height: 100%;
-    background-color: bisque;
-    justify-content: center;
-}
-
-#github-container{
-    width: 50%;
-    height: 100%;
-    background-color: black;
+.height75{
+    height: 75%;
 }
 
 .project-container {
-
-    width: auto;
-    height: 50%;
-    display: flex;
+    width: 41%;
+    height: 75%;
+    display:flex;
     align-items: center;
     justify-content: center;
-    padding: 4px;
-    
-
+    padding: 4px;  
 }
 
-#second-project{
-    align-items: right;
+.project-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.nav{
+    background-color: #1e1e1e;
+}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
