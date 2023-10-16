@@ -7,131 +7,113 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue|Kanit|Courgette|Oxygen|Patua One">
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
     <div class="nav container-fluid">
-      <a href="#ABOUT-ME"> About Me</a>
-      <a href="#CLOTH-SCS"> Cloth-SCS</a>
-      <a href="#FAST-TRACK"> FastTrack </a>
+      <a style="background-color: lightsalmon;" href="#CLOTH-SCS"> Cloth-SCS</a>
+      <a style="background-color: lightslategray;" href="#FAST-TRACK"> FastTrack </a>
       <a href="#SMS-BUTLER"> SMS-Butler</a>
-      <a href="#CONTACT"> Contact</a>
+      <a style="background-color: rgb(180, 175, 175);" href="#CONTACT"> Contact</a>
     </div>
-
-
 
     <div class="jumbotron text-center; intro-container">
       <div>
         <h1 id="name-header">Osama Iqbal</h1>
         <div  id="header-divider" ></div>
-        <p style="text-align: center;">Hello, I am a passionate individual who has a deep interest in software development, constantly seeking new ways to improve my coding skills and create innovative software solutions.</p>
+        <p style="text-align: center;">I am a passionate individual who has a deep interest in software development, constantly seeking new ways to improve my coding skills and create innovative software solutions.</p>
+        <img src="./images/1866.png"/>
       </div>
     </div>
   
-    <h1 class="h1">Projects</h1>
 
-        
-   <div style="height: 75%;" id="CLOTH-SCS" class="container-fluid"> 
-    <div class="row">
-      <div class="col-sm-5 project-container">
-        <a href="https://github.com/oiqbal99/SMS-BUTLER" target="_blank">
-          <img src="./images/cloth-scs-logo.png" alt="sms-butler-logo">
-        </a>
-      </div>
-      <h1>Cloth-SCS</h1>
-      <div class="col-sm-7 project-container">
-        <br>
-        <p>Cloth-SCS is an online clothing web application that offers a range of integrated services, including Drag and Drop, 
-          integration with the Google Geolocation API, and cross-browser detection and support. 
-        </p> 
-      </div>  
+    <div class="header-container">
+      <h2 class="h2"> Projects I have worked on</h2>
+    </div>
+     
+   <div id="CLOTH-SCS" class="container-fluid"> 
+    <div class="row container-view">
+        <div  class="col-sm-8 project-container project-one-img">
+          
+          <a href="https://github.com/oiqbal99/SMS-BUTLER" target="_blank">
+            <img src="./images/cloth-scs-logo.png" alt="sms-butler-logo">
+          </a>
+        </div>
+      
+        <div style="height: 50%; font-family: Kanit;" class="col-sm-4" >
+          <h1 class="title-border">Cloth-SCS</h1>
+          <br>
+          <p>
+            Cloth-SCS is an online clothing web application that offers a range of integrated services, including Drag and Drop, 
+            integration with the Google Geolocation API, and cross-browser detection and support. 
+          </p> 
+        </div>  
     </div>
   </div>   
 
-  <div style="height: 75%;" id="FAST-TRACK" class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 project-container">
-        <a href="https://github.com/oiqbal99/FastTrack" target="blank">
-          <img src="./images/fast-track-log.png" alt="fast track logo"/>
-        </a> 
-      </div>
-      <h1>Fast Track</h1>
-      <div class="col-sm-6 project-container">
-         
+  <div  id="FAST-TRACK" class="container-fluid">
+    <div class="row container-view">
+
+        <div class="col-sm-8 project-container project-two-img">
+          <a href="https://github.com/oiqbal99/FastTrack" target="blank">
+            <img src="./images/fast-track-log.png" alt="fast track logo"/>
+          </a> 
+        </div>
+        
+        <div style="height: 50%; font-family: Bebas Neue;" class="col-sm-4">
+          <h1 class="title-border">Fast Track</h1>
           <br>
           <p>The Fast Track Application mobile android application which allows users to monitor 
               their finances by categorizing and examining expenses,
               calculating their overall income and expenses, projecting a budget over a specified
               time frame, and thereby enhancing their financial management skills and confidence.
           </p>
-      </div>
+       </div>
+
     </div>
   </div>
 
-   <div style="height: 75%;" id="SMS-BUTLER" class="container-fluid"> 
-      <div class="row">
-        <div class="col-sm-5 project-container">
+   <div  id="SMS-BUTLER" class="container-fluid"> 
+      <div class="row container-view">
+
+        <div class="col-sm-8 project-container project-three-img">
           <a href="https://github.com/oiqbal99/SMS-BUTLER" target="_blank">
             <img src="./images/sms-butler-logo.png" alt="sms-butler-logo">
           </a>
         </div>
-        <h1>SMS Butler</h1>
-        <div class="col-sm-7 project-container">
-          
+      
+        <div style="font-family: Courgette;" class="col-sm-4">
+          <h1 class="title-border">SMS Butler</h1>
           <br>
           <p>SMS-Butler is a straightforward Android application meticulously 
             designed to provide an automated response using custom user-generated messages
              whenever the application is activated.</p> 
+        </div>
+
       </div>
     </div>   
 
-    <div id="CONTACT">
-        <h1>Contact</h1>
+    <div style="padding:20px; background-color:white; width:100%;"  id="CONTACT">
+        <h1  class="title-border"><b>Contact</b></h1>
 
-        <h3>Phone Number</h3>
-        <h4>(1)647-667-8205</h4>
+        <h3><b>Mobile Number</b></h3>
+        <h4>(1) 647-667-8205</h4>
         
-        <h3>E-Mail</h3>
+        <h3><b>E-Mail</b></h3>
         <h4>Osama.iqbal@torontomu.ca</h4>
 
-        <h3>Github</h3>
+        <h3><b>Github</b></h3>
         <a href="https://github.com/oiqbal99"> <h4>https://github.com/oiqbal99</h4></a>
 
-        <h3>LinkedIn</h3>
+        <h3><b>LinkedIn</b></h3>
         <a href="www.linkedin.com/in/osamaiqbal99"> <h4>www.linkedin.com/in/osamaiqbal99</h4></a>
 
     </div>
 
-    <div style="text-align: center" class="container-fluid">
-      <div class="row">
-          <div class="col-sm-3">
-            <img src="./images/java-icon.png" alt="fast track logo"/>
-          </div>
-          <div class="col-sm-3">
-            <img src="./images/mysql-icon.png" alt="fast track logo"/>
-          </div>
-          <div class="col-sm-3">
-            <img src="./images/javascript-logo.png" alt="fast track logo"/>
-          </div>
-          <div class="col-sm-3">
-            <img src="./images/php-logo.png" alt="fast track logo"/>
-          </div>
 
-          <div class="col-sm-3">
-            <img src="./images/html-logo.png" alt="fast track logo"/>
-          </div>
-          <div class="col-sm-3">
-            <img src="./images/css-logo.png" alt="fast track logo"/>
-          </div>
-          <div class="col-sm-3">
-            <img src="./images/python-logo.png" alt="fast track logo"/>
-          </div>
-          <div class="col-sm-3">
-            <img src="./images/c-plus-plus.png" alt="fast track logo"/>
-          </div>
-      </div>
-    </div>
   
 	<script src="index.js"></script>
   </body>
