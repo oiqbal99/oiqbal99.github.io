@@ -3,12 +3,19 @@ html{
 }
 
 body{
-    background-color:#1e1e1e;
-    font-family: Patua One, serif;
+    
+    font-family: Kanit, sans-serif;
+    font-weight: bold;
+    
 }
 
 p{
     font-size: x-large ;
+}
+
+.h1{
+    
+    font-size: xx-large;
 }
 
 .h2{
@@ -16,14 +23,18 @@ p{
 }
 
 .nav{
-    background-color: #1e1e1e;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    background-color: white;
 }
 
 .nav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    float: center;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    margin:10px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -35,13 +46,18 @@ p{
 
 .intro-container{
     width: 100%;
-    height: 75%;
-    background-color: white;
+    height: 70%;
     color: black;
     display: inline-flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+
+    background-image: url(./images/174021-grey-geometric-abstract-backgroundfor-website-wallpaper-bussines.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .intro-container p{
@@ -55,35 +71,72 @@ p{
     border-bottom-style: solid;
 }
 
+#project-btn{
+    font-size: medium;
+    background-color: #7843e9;
+    color: white;
+    text-transform: uppercase;
+    padding: 20;
+    border:none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
 .project-container {
     height: 50%;
     display:flex;
     align-items: center;
     justify-content: center;
+
+
    
 }
 
 .container-view{
+    height: 50%;
     background-color: white; 
     margin: 10px;
     border-style: solid; 
-    border-width: 2px;
+    border-width: 1px;
+    border-radius: 15px;
     border-color: black;
+    overflow: hidden;
 }
 
 .project-one-img{
+    height: 100%;
     background-color: lightsalmon;
     border-right: 1px solid black;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius:13px;
+    background-image: url(./images/cloth-scs-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
     }
 
 .project-two-img{
+    height: 100%;
+    
     background-color: lightslategray;
     border-right: 1px solid black;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius:14px;
+    background-image: url(./images/fast-track-log.png);
+    background-repeat: no-repeat;
+    background-position: center;
     }
 
 .project-three-img{
+    height: 100%;
     background-color: black;
     border-right: 1px solid black;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius:14px;
+    background-image: url(./images/sms-butler-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
 }
 
 .title-border{
