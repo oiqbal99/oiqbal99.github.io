@@ -53,6 +53,7 @@ ul.skills li p{
 }
 
 .project-container{
+    position: relative;
     margin-top: 10px;
     color:#1E1e1e;
     padding: 5px;
@@ -213,6 +214,7 @@ h2{margin: 0;}
     align-items: center;
     height: 100%;
     border: 1px solid lightgrey;
+    overflow: auto;
 }
 
 .div-container .content-holder #content{
